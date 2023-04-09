@@ -18,3 +18,8 @@ def test():
 
     preds = v(img)
     assert preds.shape == (1, 1000), 'correct logits outputted'
+    print(preds.shape)
+
+if __name__ == '__main__':
+    test()
+    
